@@ -10,7 +10,7 @@ export default function Verify() {
             const token = urlParams.get('token');
 
             if (!token) {
-                setMessage('Token de verificación no proporcionado.');
+                setMessage('Token de verificación no proporcionadoo.');
                 return;
             }
 
