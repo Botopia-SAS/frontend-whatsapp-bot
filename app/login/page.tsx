@@ -9,7 +9,7 @@ export default function Login() {
     const [isError, setIsError] = useState(false); // Estado para indicar si el mensaje es de error
     const router = useRouter(); // Instancia del hook para manejar navegación
 
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();

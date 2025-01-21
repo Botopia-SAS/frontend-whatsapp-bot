@@ -17,7 +17,7 @@ export default function Register() {
     const [isError, setIsError] = useState(false); // Indica si el mensaje es de error
     const router = useRouter(); // Hook para redirigir al usuario
 
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setFormData({

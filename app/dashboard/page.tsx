@@ -17,7 +17,7 @@ export default function Dashboard() {
         }
     }, []);
 
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'; 
+    const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL; 
 
     // Función para obtener el QR del usuario
     const fetchQrCode = async (userId: string) => {
