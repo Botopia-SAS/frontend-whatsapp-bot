@@ -57,7 +57,7 @@ export default function Register() {
     };
 
     return (
-        <div className="min-h-screen flex items-center bg-gradient-to-br from-purple-900 via-purple-700 to-white dark:from-black dark:via-purple-800 dark:to-purple-900">
+        <div className="min-h-screen flex items-center bg-transparent">
             {/* Contenedor principal */}
             <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-6">
                 {/* Columna izquierda: Formulario */}

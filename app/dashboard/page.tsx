@@ -45,7 +45,7 @@ export default function Dashboard() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col bg-gradient-to-br from-purple-800 via-purple-500 to-white dark:from-black dark:via-purple-900 dark:to-purple-800 text-black dark:text-white transition-colors duration-300">
+        <div className="min-h-screen flex flex-col bg-transparent transition-colors duration-300">
             {/* Header */}
             <header className="w-full flex justify-between items-center px-6 py-4 bg-transparent text-white shadow-lg">
                 <h1 className="text-3xl font-extrabold">Botopia Dashboard</h1>

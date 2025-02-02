@@ -43,7 +43,7 @@ export default function Login() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col justify-between bg-gradient-to-br from-purple-900 via-purple-700 to-white dark:from-black dark:via-purple-800 dark:to-purple-900">
+        <div className="min-h-screen flex flex-col justify-between bg-transparent">
             <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-6">
                 {/* Columna izquierda: Formulario e Instrucciones */}
                 <div className="flex flex-col gap-6">
